@@ -5,13 +5,14 @@ gemspec
 gem 'cramp', :path => File.dirname(__FILE__)
 
 group :test do
-  gem 'turn'
   gem 'http_router'
+  gem 'turn'
+  gem 'minitest'
 end
 
 group :example do
-  gem 'activerecord', '~> 3.0.9'
-  gem 'mysql2', '~> 0.2.11'
+  gem 'activerecord', '3.1.1'
+  gem 'mysql2', '0.2.11'
 
   gem 'em-http-request'
 
