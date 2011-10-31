@@ -1,8 +1,9 @@
 source 'http://rubygems.org'
 
-gemspec
-
-gem 'cramp', :path => File.dirname(__FILE__)
+gem 'activesupport', '~> 3.1.1'
+gem 'rack',          '~> 1.3.2'
+gem 'eventmachine',  '1.0.0.beta.4'
+gem 'thor',          '~> 0.14.6'
 
 group :test do
   gem 'http_router'
