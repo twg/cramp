@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'activesupport', '~> 3.1.1'
-gem 'rack',          '~> 1.3.2'
+gem 'activesupport', '>= 3.1.1'
+gem 'rack',          '~> 1.4.1'
 gem 'eventmachine',  '1.0.0.beta.4'
 gem 'thor',          '~> 0.14.6'
 
